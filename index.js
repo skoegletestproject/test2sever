@@ -18,7 +18,7 @@ app.use(express.json());
 connectDB(process.env.MONGODB_URI);
 
 
-const TestVideo = connectDB.validation("tests");
+const TestVideo = connectDB.validation("testvidios");
 
 
 
